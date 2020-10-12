@@ -61,7 +61,7 @@ Check routes.
 rails routes
 ```
 
-More information about the routes visit the and request structure [Postman](https://documenter.getpostman.com/view/2691667/TVRn3Sen) documentation.
+More information about the routes and request structure visit [Postman](https://documenter.getpostman.com/view/2691667/TVRn3Sen) documentation.
 
 ## Contributing
 
