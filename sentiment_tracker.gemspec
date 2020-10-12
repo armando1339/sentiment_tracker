@@ -27,6 +27,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "rails", "~> 6.0.3", ">= 6.0.3.4"
 
+  spec.add_development_dependency "rake"
   spec.add_development_dependency "pg"
   spec.add_development_dependency "rspec-rails"
   spec.add_development_dependency "shoulda-matchers"
