@@ -3,4 +3,11 @@ language: ruby
 cache: bundler
 rvm:
   - 2.7.2
+services:
+  - postgresql
 before_install: gem install bundler -v 2.1.4
+before_script:
+  - cd spec/dummy
+  - bundle exec rake db:create
+  - bundle exec rake db:migrate
+  - cd ../../
