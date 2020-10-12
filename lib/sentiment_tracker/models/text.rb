@@ -3,7 +3,7 @@ class Text < ActiveRecord::Base
   # => Associations
   belongs_to :entity, polymorphic: true, optional: true
   has_one :sentiment, as: :entity, dependent: :destroy
-  has_many :sentences, dependent: :destroy
+  has_many :sentences, -> { includes(:sentiment) }, dependent: :destroy
 
   # => Callbacks
   after_create :exec_sentiment_analysis
