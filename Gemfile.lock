@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    sentiment_tracker (1.0.1beta)
+    sentiment_tracker (1.0.2beta)
       jbuilder (~> 2.10, >= 2.10.1)
       light-service (~> 0.15.0)
       rails (~> 6.0.3, >= 6.0.3.4)
