@@ -14,4 +14,3 @@ gemspec
 # To use a debugger
 # gem 'byebug', group: [:development, :test]
 gem 'sentiment-al', '1.2.0beta', git: 'https://github.com/armando1339/sentiment-al.git'
-gem 'light-service', '~> 0.15.0'
