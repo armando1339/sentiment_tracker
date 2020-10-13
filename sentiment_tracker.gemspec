@@ -28,7 +28,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rails", "~> 6.0.3", ">= 6.0.3.4"
   spec.add_dependency "jbuilder", "~> 2.10", ">= 2.10.1"
   spec.add_dependency "light-service", "~> 0.15.0"
-  spec.add_dependency "sentiment-all", "~> 1.2.0beta"
+  spec.add_dependency "sentiment-all", "~~> 1.2.1beta"
 
   spec.add_development_dependency "rake"
   spec.add_development_dependency "pg"
