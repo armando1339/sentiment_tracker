@@ -34,7 +34,7 @@ rails routes
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'sentiment_tracker', '~> 1.0.1beta'
+gem 'sentiment_tracker', '~> 1.0.2beta'
 ```
 
 And then execute:
