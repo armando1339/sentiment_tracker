@@ -1,6 +1,6 @@
 # SentimentTracker
 
-SentimentTracker is a plugin Rails for keep track of sentiment analysis process.
+SentimentTracker is a plugin Rails for keep track of sentiment analysis processes.
 
 [![Build Status](https://travis-ci.org/armando1339/sentiment_tracker.svg?branch=master)](https://travis-ci.org/armando1339/sentiment_tracker) [![Coverage Status](https://coveralls.io/repos/github/armando1339/sentiment_tracker/badge.svg?branch=master)](https://coveralls.io/github/armando1339/sentiment_tracker?branch=master)
 
