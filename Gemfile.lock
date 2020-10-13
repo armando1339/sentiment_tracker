@@ -7,8 +7,9 @@ GIT
 PATH
   remote: .
   specs:
-    sentiment_tracker (1.0.0beta)
+    sentiment_tracker (1.0.1beta)
       jbuilder (~> 2.10, >= 2.10.1)
+      light-service (~> 0.15.0)
       rails (~> 6.0.3, >= 6.0.3.4)
 
 GEM
@@ -194,7 +195,6 @@ PLATFORMS
 
 DEPENDENCIES
   coveralls
-  light-service (~> 0.15.0)
   pg
   pry-rails
   rake
